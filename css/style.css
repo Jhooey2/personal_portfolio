@@ -38,8 +38,13 @@ nav {
 }
     
 
-nav ul li {
+header nav ul li {
     display: inline;
+}
+
+
+ul {
+    list-style: none;
 }
 
 
@@ -79,6 +84,10 @@ body {
 }
 
 
+p {
+    font-size: 1.3em;
+}
+
 .column-layout {
     max-width: 1300px;
     background-color:black;
@@ -105,7 +114,7 @@ body {
 }
     
 
-header~ {
+header {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -142,6 +151,11 @@ header~ {
     list-style: none;
   }
   
+  #sidecolumn-two {
+      width: 50%;
+  }
+
+
   .flex-item {
     background: tomato;
     padding: 5px;
