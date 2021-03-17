@@ -45,6 +45,7 @@ header nav ul li {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 
@@ -126,7 +127,7 @@ header {
 #main-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 325px;
     padding-bottom: 325px;
 }
@@ -186,6 +187,11 @@ footer {
     text-align: center;
 }
 
+
+footer a {
+    font-size: 1em;
+    
+}
  @media screen and (max-width: 768px)  {
      main,
      nav {
