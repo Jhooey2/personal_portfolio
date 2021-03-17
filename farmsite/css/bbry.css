@@ -1,0 +1,297 @@
+header, nav, main, footer, aside { display: block;}
+
+
+*  {box-sizing: border-box; }
+
+
+body { margin:0;
+		background-color: #ffffff;
+		font-family: Helvetica, sans-serif, Verdana, Arial;
+		
+} 
+
+
+#container { 
+			 min-width: 960px;
+			 font-family: Verdana, Arial, sans-serif;
+			 text-align: center;
+	         padding-top: 20px;
+	         text-shadow: 0px 0px 0px #000000;
+}
+
+
+header { color: #FFFFFF;
+		 text-align: right;
+		 padding: 0 0px;
+		 border-bottom: 0px solid #000000;
+}
+
+
+nav ul { list-style-type: none;
+		 padding-top: 2.5em;
+		 padding-right: 1em;
+         
+}
+
+
+nav li { display: inline;}
+
+
+nav {  font-size: 1.3em;
+       text-align: right;
+       word-spacing: 1.3em;
+	   margin-right: 15px;  	   
+}
+
+nav a {text-decoration: none;}
+
+nav a:link {color: #ffffff;}
+nav a:visited {color: #eaeaea;}
+nav a:focus, nav a:hover {color: #CC9933;}
+nav a:active { color: #500000;}
+
+
+
+main { margin: 100 210px 100 160px;
+       padding: 10px 10px 10px 10px;
+       background-color: #white;
+}
+
+footer {  font-size:.1.5em;
+		  padding-bottom: 20px;
+		  padding-top: 50px;
+		  border-top: 10px solid;
+		  border-top-color: #221811;
+          background-color: #500000;
+		  color: #CC9933;
+          font-style: italic;
+          text-align: center;
+}
+
+h1 { margin-top: 0em;
+	 font-size: 3em;
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 letter-spacing: 20px;
+	 text-align: center;
+	 padding-top: 20px;
+	 text-shadow: 0px 0px 0px #000000;
+}
+
+
+h2 {  font-size: 2em;
+      text-align: center;
+	  padding-top: 20px;
+	  text-shadow: 0px 0px 0px #000000;
+}
+
+
+h3 {  font-size: 1.25em;
+	  text-shadow: 0px 0px 0px #000000;
+}
+
+#banner {  background-color: #500000;
+		  background-size: 100%100%;
+		  height: 250px;      		  
+}
+
+
+#blueberries { background-image: url(../assets/basket.jpg);
+			background-size: 100%100%;
+			height: 370px;
+}
+
+#BVspp { background-image: url(../assets/BVspp.jpg);
+         background-size: 100%100%;
+		 height: 370px;
+}
+ 
+
+.floatleft { float: left;
+			  margin-right: 10px;
+			  border: 3px ridge #000000;
+}
+
+#addy {   font-size: 1em;
+          font-style: italic;
+          text-align: center;}
+		  
+ 
+#bbfields {
+			background-image: url(../assets/nursery.jpg);
+			background-size: 100%100%;
+			height: 370px;
+}
+
+
+#farm-stands {
+			background-image: url(../assets/share.jpg);
+			background-size: 100%100%;
+			height: 370px;
+}
+
+
+#plot {
+			background-image: url(../assets/bberrybanner.jpg);
+			background-size: 100%100%;
+			height: 250px;
+}
+
+#redhouse {
+			background-image: url(../assets/redhouse.jpg);
+			background-size: 100%100%;
+			height: 250px;
+}
+
+#nursery {
+			background-image: url(../assets/nursery.jpg);
+			background-size: 100%100%;
+			height: 250px;
+}
+
+#cluck {
+			background-image: url(../assets/cluck.jpg);
+			background-size: 100%100%;
+			height: 400px;
+}
+
+#mailwagon {
+			background-image: url(../assets/mailwagon.jpg);
+			background-size: 100%100%;
+			height: 250px;
+}
+
+#bushrow {
+			background-image: url(../assets/bushrow.jpg);
+			background-size: 100%100%;
+			height: 250px;
+}
+
+
+main p {   font-size: 1em;
+           text-align: center;
+	       padding-top: 20px;
+	       text-shadow: 0px 0px 0px #000000;
+           margin: 20px; 
+}
+ 
+
+table { margin: auto;
+        border-spacing: 0;
+		background-color: #999999;
+		width: 90%;
+}
+
+
+td, th { padding: 10px;
+}
+
+
+tr:nth-of-type(odd) { background-color: #CCCCCC; }
+
+
+form { padding: 2em;}
+
+
+label {  float: left;
+		 display: block;
+		 text-align: right;
+		 width: 8em;
+		 padding-right: 1em;
+}
+
+
+input, textarea {  display: block;
+                   margin-bottom: 1em;}
+
+	
+ 
+				   
+#mobile {display: none; }
+
+#desktop { display: inline; }
+
+				   
+@media only screen and (max-width: 1024px){
+	
+body { margin: 0; background-image: none;}
+		
+header {border-bottom: 5px solid #FFFFFF;}
+
+h1 {margin-top: 0; margin-bottom: 1em; padding-top: 1em;
+ padding-bottom: 1em; font-size: 2.5em;}
+ 
+ nav {float: none; width: auto; padding-top: 0; margin: 10px; 
+ font-size: 1.3em; }
+ 
+nav li {display: inline-block; }
+
+nav a {padding: 1em; width: 8em; font-weight: bold;
+ border-style: none;}
+
+nav ul {padding: 0; margin: 0;}
+
+#banner { margin: 0; padding: 0;}
+
+#blueberries { margin: 0; padding: 0;}
+
+#BVspp { margin: 0; padding: 0;}
+
+#bbfield { margin: 0; padding: 0;}
+
+#farm-stands { margin: 0; padding: 0;}
+
+#plot { margin: 0; padding: 0;}
+
+#mailwagon { margin: 0; padding: 0;}
+
+main {padding: 0; margin: 0; font-size: 90%; }
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+header { background-image: url(basket.jpg);
+         height: 250px;}
+
+
+		 
+h1 { font-size: 2em; text-align: center; padding-left: 0;}	
+
+nav {margin: 0;}
+
+nav a { padding: 0.2em; width: auto;
+border-bottom: 1px solid #FEF6C2;}
+
+nav li {display: inline-block; }
+
+main { padding-top: 1px;}
+
+h2 { padding-top: 0.5em; padding-right: 0; padding-bottom: 0;
+ padding-left: 0.5em; margin-right: 0.5em;}
+
+#banner { background-image: none; height: auto;}
+
+#blueberries { background-image: none; height: auto;}
+
+#BVspp { background-image: none; height: auto;}
+
+#bbfield { background-image: none; height: auto;}
+
+#farm-stands { background-image: none; height: auto;}
+
+#plot { background-image: none; height: auto;}
+
+#mailwagon  { background-image: none; height: auto;}
+
+.floatleft {padding-left: 0.5em; 
+			padding-right:0.5em;
+}
+
+#mobile { display: inline;}
+
+#desktop { display: none;}
+}
+
+
